@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e02270f0-ab41-4739-8aab-86bf53fb76a9" name="Hitesh Jain@DELLPC 2020-05-04 11:51:23" runUser="DellPC\Hitesh Jain" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="b1ce2cd9-0acf-4cdc-bb95-b874ec2b5755">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Hitesh Jain_DELLPC 2020-05-04 11_51_23" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2020-05-04T11:51:23.3199222+05:30" queuing="2020-05-04T11:51:23.6191190+05:30" start="2020-05-04T11:51:23.6701556+05:30" finish="2020-05-04T11:51:24.2878729+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestStringCompare" storage="c:\users\hitesh jain\desktop\test1\testproject2\mstestproject\bin\debug\mstestproject.dll" id="a9ae74b0-ee1e-3cd5-a7dc-50872dcf7d08">
+      <Execution id="d79f3f24-058e-49c1-9670-745029cae5b6" />
+      <TestMethod codeBase="C:/Users/Hitesh Jain/Desktop/Test1/TestProject2/MstestProject/bin/Debug/MstestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MstestProject.UnitTest1, MstestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestStringCompare" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\hitesh jain\desktop\test1\testproject2\mstestproject\bin\debug\mstestproject.dll" id="35e8efe3-59ac-a45b-8c28-50523eadc756">
+      <Execution id="b1093b3f-e5ba-4bad-aeac-6f8b05c04f15" />
+      <TestMethod codeBase="C:/Users/Hitesh Jain/Desktop/Test1/TestProject2/MstestProject/bin/Debug/MstestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MstestProject.UnitTest1, MstestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="35e8efe3-59ac-a45b-8c28-50523eadc756" executionId="b1093b3f-e5ba-4bad-aeac-6f8b05c04f15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9ae74b0-ee1e-3cd5-a7dc-50872dcf7d08" executionId="d79f3f24-058e-49c1-9670-745029cae5b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b1093b3f-e5ba-4bad-aeac-6f8b05c04f15" testId="35e8efe3-59ac-a45b-8c28-50523eadc756" testName="TestMethod1" computerName="DELLPC" duration="00:00:00.0190856" startTime="2020-05-04T11:51:23.6821793+05:30" endTime="2020-05-04T11:51:24.1154697+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1093b3f-e5ba-4bad-aeac-6f8b05c04f15">
+    </UnitTestResult>
+    <UnitTestResult executionId="d79f3f24-058e-49c1-9670-745029cae5b6" testId="a9ae74b0-ee1e-3cd5-a7dc-50872dcf7d08" testName="TestStringCompare" computerName="DELLPC" duration="00:00:00.0443331" startTime="2020-05-04T11:51:24.1174717+05:30" endTime="2020-05-04T11:51:24.1657999+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d79f3f24-058e-49c1-9670-745029cae5b6">
+    </UnitTestResult>
+  </Results>
+</TestRun>

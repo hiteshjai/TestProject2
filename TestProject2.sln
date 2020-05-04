@@ -21,13 +21,32 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TestProject2", "..\TestProj
 		VWDPort = "40796"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MstestProject", "MstestProject\MstestProject.csproj", "{06EA810E-5FB7-4C3A-8A47-A87E068F3FF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3961714-C526-424B-90C6-A2452E1C4B8F}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TestProject2.vsmdi = TestProject2.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TestProject2.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AEE3F01A-FD52-41F5-8388-C895226CB5FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AEE3F01A-FD52-41F5-8388-C895226CB5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE3F01A-FD52-41F5-8388-C895226CB5FA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE3F01A-FD52-41F5-8388-C895226CB5FA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{06EA810E-5FB7-4C3A-8A47-A87E068F3FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EA810E-5FB7-4C3A-8A47-A87E068F3FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EA810E-5FB7-4C3A-8A47-A87E068F3FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EA810E-5FB7-4C3A-8A47-A87E068F3FF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
